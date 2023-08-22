@@ -1,40 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
-   <title>Document</title>
+   <title>Portifolio</title>
+
    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
+
 <body>
    <header class="header">
       <a href="#" class="logo">MatheusRodrigues</a>
 
+      <box-icon name='menu' id="menu-icon"></box-icon>
+
       <nav class="navbar">
-         <a href="#">Home</a>
-         <a href="#">Sobre mim</a>
-         <a href="#">Skills</a>
-         <a href="#">Portfolio</a>
-         <a href="#">Contato</a>
+         <a href="#home" class="active">Home</a>
+         <a href="#sobremim">Sobre mim</a>
+         <a href="#skills">Skills</a>
+         <a href="#projetos">Projetos</a>
+         <a href="#contato">Contato</a>
       </nav>
    </header>
-   <section class="home">
+
+   <!-- home section design-->
+   <section class="home" id="home">
       <div class="home-content">
          <h3>Olá esse sou eu</h3>
          <h1>Matheus Rodrigues</h1>
-         <h3>E eu sou <span class="text"></span></h3>
-         <p>Etudante de Engenharia de Software e apaixonado pelo desenvolvimento web.</p>
-         <div class="home-sci">
-            <a href="#"><box-icon name='github' type='logo'></box-icon></a>
-            <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
-            <a href="#"><box-icon type='logo' name='whatsapp'></box-icon></a>
+         <h3>E eu sou <span>Desenvolvedor Web</span></h3>
+         <p>Sou iniciante na área de Tecnologia, mas um entusiasta e amante pelo desenvolvimento de softwares e
+            construção de interfaces de páginas web.</p>
+         <div class="social-media">
+            <a href="#"><box-icon type='logo' name='github'></box-icon></a>
+            <a href="#"><box-icon name='linkedin-square' type='logo'></box-icon></a>
+            <a href="#"><box-icon name='whatsapp' type='logo'></box-icon></a>
          </div>
-         <a href="#" class="btn-box">Mais Sobre Mim</a>
+         <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+         <img src="images/WhatsApp Image 2023-08-21 at 13.24.10.jpeg" alt="">
       </div>
    </section>
+
+   <!--sobremim section design-->
+   <section class="sobremim" id="sobremim">
+      <div class="about-img">
+         <img src="images/WhatsApp Image 2023-08-21 at 13.24.10.jpeg" alt="">
+      </div>
+
+      <div class="about-content">
+         <h2 class="heading">Sobre<span> Mim</span></h2>
+         <h3>Desenvolvedor Web</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt quis recusandae qui corporis
+            distinctio eveniet necessitatibus labore cumque, odit ad vel esse dolorum magnam fuga, eos aperiam dolor
+            consequuntur.</p>
+         <a href="#" class="btn">Leia mais</a>
+      </div>
+   </section>
+
+   <!--skills services design-->
+   <section class="skills" id="skills">
+      <h2 class="heading">Minhas<span> skills</span></h2>
+
+      <!--javascript-->
+      <div class="services-container">
+         <div class="services-box">
+            <box-icon name='javascript' type='logo'></box-icon>
+            <h3 class="Javascript">Javascript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+         <!--c#-->
+
+         <div class="services-box">
+            <div class="c-img">
+               <img src="images/icons8-c-sharp-logo-50.png" alt="">
+            </div>
+            <h3 class="C#">C#</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+         <!--git-->
+
+         <div class="services-box">
+            <box-icon name='git' type='logo'></box-icon>
+            <h3 class="Git">Git</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+         <!--html-->
+
+         <div class="services-box">
+            <box-icon name='html5' type='logo'></box-icon>
+            <h3 class="Html">Html</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+         <!--css-->
+
+         <div class="services-box">
+            <box-icon name='css3' type='logo'></box-icon>
+            <h3 class="Css">Css</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+         <!--bootstrap-->
+
+         <div class="services-box">
+            <box-icon type='logo' name='bootstrap'></box-icon>
+            <h3 class="Bootstrap">Bootstrap</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
+               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
+               Consequatur, odio quasi.</p>
+            <a href="#" class="btn">Leia mais</a>
+         </div>
+
+      </div>
+   </section>
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
    <script src="script.js"></script>
 
 </body>
+
 </html>
