@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
-   <title>Portifolio</title>
+   <title>MatheusRodrigues</title>
 
    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
@@ -15,8 +15,18 @@
 </head>
 
 <body> 
+   <header>
+      <a href="#" class="logo">MatheusRodrigues<span></span></a>
+      <div class="menuToggle" onclick="toggleMenu()"></div>
+      <ul class="navigation">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#sobremim" onclick="toggleMenu()">Sobre mim</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projetos" onclick="toggleMenu()">Projetos</a></li>
+      </ul>
+  </header>
 
-   <header class="header">
+  <!-- <header class="header">
       <a href="#" class="logo">MatheusRodrigues</a>
 
       <box-icon name='menu' color='#fff8f8' id="menu-icon" onclick="menuIcon" ></box-icon>
@@ -27,7 +37,7 @@
          <a href="#skills">Skills</a>
          <a href="#projetos">Projetos</a>
       </nav>
-   </header> 
+   </header> -->
 
 
    <!-- home section design-->
@@ -40,10 +50,9 @@
             construção de interfaces de páginas web.</p>
          <div class="social-media">
             <a href="https://github.com/mrodrigues05"><box-icon type='logo' name='github'></box-icon></a>
-            <a href="https://www.linkedin.com/in/matheus-silva-29a943287/"><box-icon name='linkedin-square' type='logo'></box-icon></a>
-            <a href="#"><box-icon name='whatsapp' type='logo'></box-icon></a>
+            <a href="https://www.linkedin.com/in/mrodrigues077/"><box-icon name='linkedin-square' type='logo'></box-icon></a>
+            <a href="https://api.whatsapp.com/send?phone=5519999123131"><box-icon name='whatsapp' type='logo'></box-icon></a>
          </div>
-         <a href="#" class="btn">Download CV</a>
       </div>
 
       <div class="home-img">
@@ -59,11 +68,8 @@
 
       <div class="about-content">
          <h2 class="heading">Sobre<span> Mim</span></h2>
-         <h3>Desenvolvedor Web!</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt quis recusandae qui corporis
-            distinctio eveniet necessitatibus labore cumque, odit ad vel esse dolorum magnam fuga, eos aperiam dolor
-            consequuntur.</p>
-         <a href="#" class="btn">Leia mais</a>
+         <h3>Sou Desenvolvedor Web!</h3>
+         <p>Almejo trabalhar como desenvolvedor web ou áreas afins com o intuito de aprender e desenvolver habilidades relacionadas ao desenvolvimento de softwares e construção de interfaces de páginas web</p>
       </div>
    </section>
 
@@ -78,10 +84,7 @@
                <img src="images/javascript.png" alt="">
             </div>
             <h3 class="Javascript">Javascript</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.O JavaScript é uma das tecnologias da World Wide Web.</p>
          </div>
 
          <!--c#-->
@@ -91,10 +94,8 @@
                <img src="images/c.png" alt="">
             </div>
             <h3 class="C#">C#</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p>C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++</p>
+
          </div>
 
          <!--git-->
@@ -104,10 +105,7 @@
                <img src="images/git.png" alt="">
             </div>
             <h3 class="Git">Git</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p> é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo</p>
          </div>
 
          <!--html-->
@@ -117,10 +115,7 @@
                <img src="images/html.png" alt="">
             </div>
             <h3 class="Html">Html</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p> 
          </div>
 
          <!--css-->
@@ -130,10 +125,8 @@
                <img src="images/css.png">
             </div>
             <h3 class="Css">Css</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, 
+               aplicado diretamente nas tags HTML ou ficar contido dentro das tags.</p> 
          </div>
 
          <!--bootstrap-->
@@ -143,10 +136,7 @@
                <img src="images/bootstrap.png" alt="">
             </div>
             <h3 class="Bootstrap">Bootstrap</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio atque non maiores praesentium
-               suscipit alias, accusantium vero cumque ducimus incidunt officia harum id dolores at doloremque.
-               Consequatur, odio quasi.</p>
-            <a href="#" class="btn">Leia mais</a>
+            <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web.</p>
          </div>
 
       </div>
@@ -158,56 +148,29 @@
 
       <div class="projetos-container">
          <div class="projetos-box">
-            <img src="images/ph.avif" alt="" class="src">
+            <img src="images/food.png" alt="" class="src">
             <div class="portifolio-layer">
-               <h4>Web de vendas</h4>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
+               <h4>Landing page Restaurante</h4>
+               <p></p>
+               <a href="https://mrodrigues05.github.io/WebSite-Restaurant/"><box-icon name='link-external'></box-icon></a>
             </div>
          </div>
 
          <div class="projetos-box">
-            <img src="images/ph.avif " alt="" class="src">
+            <img src="images/mario.webp" alt="" class="src">
             <div class="portifolio-layer">
-               <h4>Web de vendas</h4>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
+               <h4>Landing page Super Mario</h4>
+               <p></p>
+               <a href="https://mrodrigues05.github.io/Super-mario/"><box-icon name='link-external'></box-icon></a>
             </div>
          </div>
 
          <div class="projetos-box">
-            <img src="images/ph.avif " alt="" class="src">
+            <img src="images/pet.png" alt="" class="src">
             <div class="portifolio-layer">
                <h4>Web de vendas</h4>
                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
-            </div>
-         </div>
-
-         <div class="projetos-box">
-            <img src="images/ph.avif" alt="" class="src">
-            <div class="portifolio-layer">
-               <h4>Web de vendas</h4>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
-            </div>
-         </div>
-
-         <div class="projetos-box">
-            <img src="images/ph.avif " alt="" class="src">
-            <div class="portifolio-layer">
-               <h4>Web de vendas</h4>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
-            </div>
-         </div>
-
-         <div class="projetos-box">
-            <img src="images/ph.avif" alt="" class="src">
-            <div class="portifolio-layer">
-               <h4>Web de vendas</h4>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dolores!</p>
-               <a href="#"><box-icon name='link-external'></box-icon></a>
+               <a href="https://mrodrigues05.github.io/WebSite-petShop/"><box-icon name='link-external'></box-icon></a>
             </div>
          </div>
       </div>
